@@ -1,0 +1,21 @@
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #102A43;
+  color: white;
+  font-size: 20px;
+}
+
+
+
+.info{
+  padding: 10px;
+  text-align: center;
+  background: #89103F;
+  color: white;
+  font-size: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
