@@ -2,17 +2,17 @@ body{
 	margin : 0;
 	padding: 0;
 	font-family: sans-serif;
-	background : #34495e;
+	background : #F29B9B;
 }
 
 .box{
-	width: 300px;
+	width: 600px;
 	padding: 40px;
 	position: absolute;
 	top: 50%;
 	left : 50%;
 	transform: translate(-50%,-50%);
-	background: #191919;
+	background: #243B53;
 	text-align: centre;
 }
 .box h1{
@@ -20,6 +20,11 @@ body{
 	text-transform: uppercase;
 	font-weight: 500;
 }
+.box h2{
+	color: yellowgreen;
+	text-transform: uppercase;
+	font-weight: 400;
+}	
 .box input[type = "text"],.box input[type = "password"]{
 	border: 0;
 	background: none;
