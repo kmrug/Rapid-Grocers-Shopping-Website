@@ -1,5 +1,5 @@
 Course Project  
-Course Code: CSI 3140  
+Course Code: CSI 3140 - WINTER 2022  
 
 Team Members:  
 
