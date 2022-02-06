@@ -38,8 +38,9 @@ body{
 }
 
 .categoryWrapper{
-
-    float: left;
+    position: fixed;
+    top: 15.9%;
+    left: 2.5%;
     text-align: center;
     /* margin: 40px 50px; */
     background-color: rgb(207, 94, 207);
@@ -70,11 +71,29 @@ body{
     background-color: rgb(248, 77, 105);
 }
 
-.productBox{
-    display: inline-block;
+.productWrapper{    
+    float: right;
     background-color: skyblue;
     border-radius: 40px;
-    padding: 5px 20px;
+    padding: 35px 20px;
     width: 1390px;
-    height: 700px;
+    height: auto;
 }
+
+.productBox{
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: aquamarine;
+    border: 0px solid aquamarine;
+    width: 221px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
