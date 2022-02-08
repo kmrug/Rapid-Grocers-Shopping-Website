@@ -5,6 +5,28 @@ body{
 	background : #F29B9B;
 }
 
+#logo1{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+} 
+
+#logo2{ 
+	position:fixed; 
+	top:0; 
+	right:0; 
+}
+
+#logo3{ 
+	position:fixed; 
+	bottom:0; 
+	left:0; 
+} 
+#logo4{ 
+	position:fixed; 
+	bottom:0; 
+	right:0; 
+} 
 .box{
 	width: 800px;
 	padding: 40px;
@@ -14,6 +36,8 @@ body{
 	transform: translate(-50%,-50%);
 	background: #243B53;
 	text-align: centre;
+	background-color: rgba(0,0,0,.75);
+    color: #fff;
 }
 .box h1{
 	color: white;
