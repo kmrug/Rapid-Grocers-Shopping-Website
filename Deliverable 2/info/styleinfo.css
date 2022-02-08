@@ -14,18 +14,17 @@ body{
 	transform: translate(-50%,-50%);
 	background: #243B53;
 	text-align: centre;
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.45);
     color: #fff;
 }
 
-#logo1{
-	margin-top:15px;
-}
 
 #logo2{
 	position:fixed; 
 	top:0; 
 	right:0; 
+	width : auto;
+	height: auto;
 }
 
 #logo3{
@@ -55,7 +54,7 @@ body{
 	width: 200px;
 	outline: none;
 	color: white;
-	border border-radius: 24px;
+	border-radius: 24px;
 	transition: 0.25s;
 	font-size: 20px;
 }
