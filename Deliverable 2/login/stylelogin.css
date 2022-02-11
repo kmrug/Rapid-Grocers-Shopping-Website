@@ -6,26 +6,38 @@ body{
 }
 
 #logo1{ 
-	position:fixed; 
-	top:0; 
-	left:0; 
+	width: 400px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left : 50%;
+	transform: translate(-204.5%,-90%);
 } 
 
 #logo2{ 
-	position:fixed; 
-	top:0; 
-	right:0; 
+	width: 400px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left : 50%;
+	transform: translate(-204.5%,-20%);
 }
 
 #logo3{ 
-	position:fixed; 
-	bottom:0; 
-	left:0; 
+	width: 400px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left : 50%;
+	transform: translate(-10%,-90%);
 } 
 #logo4{ 
-	position:fixed; 
-	bottom:0; 
-	right:0; 
+	width: 400px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left : 50%;
+	transform: translate(-10.5%,-20%);
 } 
 .box{
 	width: 800px;
@@ -36,7 +48,7 @@ body{
 	transform: translate(-50%,-50%);
 	background: #243B53;
 	text-align: centre;
-	background-color: rgba(0,0,0,.85);
+	background-color: rgba(0,0,0,0.99);
     color: #fff;
 }
 .box h1{
