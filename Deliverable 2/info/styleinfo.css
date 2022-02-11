@@ -20,17 +20,23 @@ body{
 
 
 #logo2{
-	position:fixed; 
-	top:0; 
-	right:0; 
-	width : auto;
-	height: auto;
+	
+	width: 400px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left : 50%;
+	transform: translate(50%,-50%);
+
 }
 
 #logo3{
-	position:fixed; 
-	top:0; 
-	left:0;
+	width: 400px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left : 50%;
+	transform: translate(-150%,-50%);
 }
 
 .box h1{
