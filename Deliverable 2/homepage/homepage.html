@@ -128,12 +128,24 @@
                     Categories
                 </p>
                 
-                <button class="categoryButton">Electronics</button><br><br><br>
-                <button class="categoryButton">Dairy</button><br><br><br>
-                <button class="categoryButton">Fruits</button><br><br><br>
-                <button class="categoryButton">Vegetables</button><br><br><br>
-                <button class="categoryButton">Snacks</button><br><br><br>
-                <button class="categoryButton">Beverages</button><br><br><br>
+                <button class="categoryButton electronics">
+                    <span class="buttonText">Electronics</span>
+                </button><br><br>
+                <button class="categoryButton dairy">
+                    <span class="buttonText">Dairy</span>
+                </button><br><br>
+                <button class="categoryButton fruits">
+                    <span class="buttonText">Fruits</span>
+                </button><br><br>
+                <button class="categoryButton vegetables">
+                    <span class="buttonText">Vegetables</span>
+                </button><br><br>
+                <button class="categoryButton snacks">
+                    <span class="buttonText">Snacks</span>
+                </button><br><br>
+                <button class="categoryButton beverages">
+                    <span class="buttonText">Beverages</span>
+                </button><br><br>
             </span>
 
             <button class="scrollTop" onclick="scrollUp()" id="btn">
@@ -148,7 +160,7 @@
             window.onscroll = function() {scrollFunction()};
 
             function scrollFunction() {
-                if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+                if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
                     butn.style.display = "block";
                 }
                 
