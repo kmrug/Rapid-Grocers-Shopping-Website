@@ -1,7 +1,7 @@
 .header {
   padding: 10px;
   text-align: center;
-  background: #102A43;
+  background: #4056A1;
   color: white;
   font-size: 20px;
 }
@@ -11,9 +11,14 @@
 .info{
   padding: 10px;
   text-align: center;
-  background: #89103F;
-  color: white;
+  background: #EFE2BA;
+  color: black;
   font-size: 20px;
+}
+
+.footer1{
+  background: #F13C20;
+  color: white;
 }
 
 table, th, td {
