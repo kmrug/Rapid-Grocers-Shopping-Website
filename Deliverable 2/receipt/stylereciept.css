@@ -1,7 +1,7 @@
 .header {
   padding: 10px;
   text-align: center;
-  background: #07155D;
+  background: rgb(77, 77, 255);
   color: white;
   font-size: 20px;
 }
@@ -11,7 +11,7 @@
 .info{
   padding: 10px;
   text-align: center;
-  background: #970F05;
+  background: rgb(248, 77, 105);
   color: white;
   font-size: 20px;
 }
@@ -23,8 +23,7 @@
 
 
 .footer1{
-  background: #940C80;
-  color: white;
+  color: black;
 }
 
 
