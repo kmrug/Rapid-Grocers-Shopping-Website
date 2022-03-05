@@ -91,7 +91,7 @@ For this deliverable we made four html and four css files in total. A basic idea
 ## Info
 ### **1.1. Info.html**
 Info.html is the pop up where a new user goes to add his/her information which can be stored in our database (to be implemented later) for future easy access and saving their profile.
-## ![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.001.png)
+## ![](ImagesD2/Info.png)
 *Fig 1 : Screenshot of Info Page*
 
 #### 1.1.1 Boxes used 
@@ -100,7 +100,7 @@ Used for the info input boxes
 
 Colors used :
 
-` `![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.002.png)
+` `![](ImagesD2/Blue.png)
 
 Font used : sans-serif
 
@@ -109,7 +109,7 @@ Used for the Saving and uses an UI	component
 
 `	`Colors used : 
 
-` `![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.003.png)
+` `![](ImagesD2/Green.png)
 
 Extra feature - Gives color #2ecc71 (same as above) when you hover over 
 
@@ -124,7 +124,7 @@ Extra feature - Opacity used (90%)
 Styleinfo.css makes it possible for us to enrich the vibrant colors and position the images as seen in the info.html page. The file contains - page background color, dimensions of images and box, fonts among some other alignments for the input boxes and pictures.
 
 ### 1.4. Colors & Font usage - 
-Background color : ![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.004.png) rgb(248, 77, 105, .50) - 50% opacity 
+Background color : ![](ImagesD2/Red.png) rgb(248, 77, 105, .50) - 50% opacity 
 
 Font : sans-serif
 
@@ -136,7 +136,7 @@ Font : sans-serif
 ## Login
 ### `		`2.1. Login.html
 Login.html is the login page of our website where the user is required to either log in their username and password which they made in the info page, or they have the option of clicking the link down in the box which will directly lead them to the homepage of website and they can add their account info while checking out.  
-### ![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.005.png)
+### ![](Login.png)
 *Fig 2 : Screenshot of Login Page*
 
 ### `		`2.2. stylelogin.css - 
@@ -148,21 +148,21 @@ One image (veggie.png) is used from google, which is just used for decorative pu
 ### `		`2.4. Colors & Font usage -
 `			`Background photo : veggie.png
 
-Background color : ![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.006.png)#F29B9B
+Background color : ![](ImagesD2/LightRed.png)#F29B9B
 
 Font : sans-serif
 
-Text color : <h1> ![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.007.png)white
+Text color : <h1> ![](ImagesD2/White.png)white
 
-`	     `: <h2> ![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.008.png) yellowgreen
+`	     `: <h2> ![](ImagesD2/Neon.png) yellowgreen
 
 Box colors: username
 
-` 	 `![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.002.png)
+` 	 `![](ImagesD2/Blue.png)
 
 `    `: login 
 
-![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.003.png)
+![](ImagesD2/Green.png)
 
 ## Homepage
 ### 3.1. homepage.html
@@ -176,40 +176,40 @@ Homepage.html is the main file where we have made the grocery website. Users wil
 
 
 
-*Fig 3 : Screenshot of Home Page![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.009.png)*
+*Fig 3 : Screenshot of Home Page![](ImagesD2/Homepage.png)*
 ### 3.2. styles.css
 In Styles.css, all the elements in the html file are properly sized and formatted for the users screen. This is where all the fonts and color palettes are set. The hoverable dropdown menu and the pictured category buttons are all stylized here.
 
 ### 3.2.1 Colors & Fonts usage:
 `			`All the fonts on the homepage.html file use the “Sans-Serif” fonts				For the grocery website name and the user services, the following color is 			used:
 
-![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.010.png) rgb(77, 77, 255) 
+![](ImagesD2/Purple.png) rgb(77, 77, 255) 
 
 
 
 For the general layout of the webpage:
 
-![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.004.png) rgb(248, 77, 105)
+![](ImagesD2/Red.png) rgb(248, 77, 105)
 
 For background of the webpage:
 
-`	`![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.011.png)rgb(255, 228, 196)
+`	`![](ImagesD2/Cream.png)rgb(255, 228, 196)
 
 
 ### 3.2.2 Buttons Used:
 `			`All the pictures under “CATEGORY” are clickable buttons:
 
-![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.012.png)
+![](ImagesD2/Electronics.png)
 
 
 
 `	`The products can be selected by clicking the following button:
 
-`	`![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.013.png)
+`	`![](ImagesD2/Pic.png)
 
 `	`User Services can be selected using the following dropdown:
 
-`	`![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.014.png)
+`	`![](ImagesD2/UserService.png)
 
 
 
@@ -230,17 +230,17 @@ The stylereciept.css uses basics of css to make a tabular receipt structure so t
 ###
 ### `   `4.3. Colors & Font usage -
 
-Background color : <h1> ![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.010.png) rgb(77, 77, 255) 
+Background color : <h1> ![](ImagesD2/Purple.png) rgb(77, 77, 255) 
 
-`		      `:  <h2> ![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.004.png) rgb(248, 77, 105)
+`		      `:  <h2> ![](ImagesD2/Red.png) rgb(248, 77, 105)
 
 Font : sans-serif
 
-Text color : <headings> ![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.007.png)white
+Text color : <headings> ![](ImagesD2/White.png)white
 
-`	     `: <normal texts>![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.015.png) black
+`	     `: <normal texts>![](ImagesD2/Black.png) black
 
-Table header background color: ![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.015.png) black
+Table header background color: ![](ImagesD2/Black.png) black
 
 
 
