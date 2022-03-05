@@ -5,11 +5,11 @@ Winter 2022
 
 Professor - Dr. Andrew Forward
 
-Deliverable 2
+Deliverable 3
 
 Project Report
 
-Feb 11th, 2022
+March 4th, 2022
 
 
 
@@ -28,54 +28,6 @@ Feb 11th, 2022
 
 
 
-[**About](#_e7agz1t6d2qr)	**2****
-
-[**HTML (& CSS) Files :](#_klhd3zx20zt3)	**2****
-
-[Info](#_nxxov7bszfb9)	2
-
-[1.1. Info.html](#_feo44nrcj87k)	2
-
-[1.1.1 Boxes used](#_rurvo1qdk1pv)	3
-
-[1.1.1.1 Round Box -](#_ro4wyl13ge6f)	3
-
-[1.1.1.2 Square Box](#_9mas9gqo7w7e)	3
-
-[1.1.1.3 Box Body](#_anlslfbvsbsq)	3
-
-[1.2. styleinfo.css -](#_9mnk3iy50qps)	3
-
-[1.4. Colors & Font usage -](#_e9yrkzfm0mlv)	3
-
-[Login](#_qvnmgkrx246)	4
-
-[2.1. Login.html](#_avbs1zgwevso)	4
-
-[2.2. stylelogin.css -](#_75iecmy83ybt)	4
-
-[2.3. Others -](#_gvjyrzqnovc9)	5
-
-[2.4. Colors & Font usage -](#_s51gvzgwlz0p)	5
-
-[Homepage](#_kqw8kxbg2d0a)	5
-
-[3.1. homepage.html](#_njidtgp9sl0v)	5
-
-[3.2. styles.css](#_ncum1n3ky4za)	6
-
-[3.2.1 Colors & Fonts usage:](#_aw8dxvqwrexf)	6
-
-[3.2.2 Buttons Used:](#_ek4ad0jq9ivz)	7
-
-[Receipt](#_4v949d93myei)	8
-
-[4.1. receipt.html -](#_vzpx8yx43b63)	8
-
-[4.2. stylereciept.css -](#_3mti4nfiv1s)	8
-
-[4.3. Colors & Font usage -](#_brizyhpivsp)	8
-
 
 
 
@@ -86,164 +38,118 @@ Feb 11th, 2022
 
 
 # About
-For this deliverable we made four html and four css files in total. A basic idea of the website was implemented using the concepts learned in the classroom. Our website’s name is Rapid Grocers and it works like an online grocery and utility store where users can buy electronics, beverages, groceries among others. A screenshot of all webpages are posted which highlight the features.
-# HTML (& CSS) Files : 
+
+For this deliverable, we followed the rubric and integrated database and also server technology (implemented during the labs). Changes in styling of website are done to make the website look better using bootstrap, php and JavaScript.
+A screenshot of all updated webpages are posted which highlight the features.
+
+**Table of Contents**
+1. Integration of server technology using PHP
+2. Database Technology integration
+3. Automated test framework in place
+4. Deployment / Upgrade Scripts working
+5. Refined HTML/CSS + UI Design System
+6. Front-end (mock) interactivity using JavaScript
+
+
+1.
+**Integration of server technology using PHP**
+We used the application XAMPP to integrate using apache web server technology using php.
+Our code was already converted to .php while working on the labs. 
+
+link to xampp - https://www.apachefriends.org/download.html
+
+The website can be accessed using the trajectory - xampp/htdocs/folder/....
+
+Once Xampp is downloaded and the Xampp control panel is opened we will run the apache server on our localhost. For now we will be running our project on the localhost only instead of any other web server.
+
+## ![](ImagesD3_ss/xampp.png) 
+
+2.
+**Database Technology integration**
+For the deliverable, we originally used PHPMYADMIN , MYSQL (for lab06) to maintain our draft database but since we were more used to POSTGRES we eventually switched to it and used to PGADMIN4 as our database management software .
+
+In Postgres, we created a table 'login_info' which includes parameters  -
+    user_id
+    username
+    password
+
+and contains a population of 4 entries currently entered both manually and using web page. The user_id is automatically generated and the username and password are stored in the database.    
+
+## ![](ImagesD3_ss/db.png) 
+
+We verify the username and password, if the user inputs a wrong usernmae or password we generate a blank page which shows an error as follows-
+
+## ![](ImagesD3_ss/err.png) 
+
+But, if it is valid we go to homepage with grocery.
+We again used XAMPP to enable pgsql on the apache server .
+
+3.
+**Automated test framework in place**
+We used the PHPUNIT testing framework to test the automatic testing. The testing framework can be set up using the following promt on cmd/terminal -
+
+composer require --dev phpunit/phpunit ^9 to get the latest version.
+
+Requirement : "composer" should already be installed in the system to test the framework, for those simple steps can be followed from -
+
+https://getcomposer.org/download/
+
+
+4.
+**Deployment / Upgrade Scripts working**
+
+Shows how to deploy the project from using the local host and shows how everything is added.
+
+## ![](ImagesD3_ss/depl.png) 
+
+
+5. 
+**Refinement of UI System designment and the existing html and css files -**
+
+Our UI design saw some changes from our submitted deliverable 2. The pages were made more user friendly and functionality like bootstrap and Google API were used to style and modernize it. The summary details of the newer changes are as follows - 
+
 ## Info
-### **1.1. Info.html**
-Info.html is the pop up where a new user goes to add his/her information which can be stored in our database (to be implemented later) for future easy access and saving their profile.
-## ![](ImagesD2/Info.png)
-*Fig 1 : Screenshot of Info Page*
+For the updates in info.php we made a more user friendly format by implementing bootstrap.
+Also using API from google , the address the user types automatically gives the option to fill up .
 
-#### 1.1.1 Boxes used 
-##### 1.1.1.1 Round Box - 
-Used for the info input boxes 
+## ![](ImagesD3_ss/api.png) 
 
-Colors used :
+## ![](ImagesD3_ss/new_user.png) 
 
-` `![](ImagesD2/Blue.png)
-
-Font used : sans-serif
-
-##### 1.1.1.2 Square Box 
-Used for the Saving and uses an UI	component
-
-`	`Colors used : 
-
-` `![](ImagesD2/Green.png)
-
-Extra feature - Gives color #2ecc71 (same as above) when you hover over 
-
-Font used : sans-serif
-
-##### 1.1.1.3 Box Body 
-To add a unique style to interface and demonstrate knowledge of new concept
-
-Extra feature - Opacity used (90%)
-
-### 1.2. styleinfo.css - 
-Styleinfo.css makes it possible for us to enrich the vibrant colors and position the images as seen in the info.html page. The file contains - page background color, dimensions of images and box, fonts among some other alignments for the input boxes and pictures.
-
-### 1.4. Colors & Font usage - 
-Background color : ![](ImagesD2/Red.png) rgb(248, 77, 105, .50) - 50% opacity 
-
-Font : sans-serif
-
-
-
-
-
+*Fig 1 : Updated Screenshot of Info Page*
 
 ## Login
-### `		`2.1. Login.html
-Login.html is the login page of our website where the user is required to either log in their username and password which they made in the info page, or they have the option of clicking the link down in the box which will directly lead them to the homepage of website and they can add their account info while checking out.  
-### ![](Login.png)
+A small change was made in the login page where the 'veggie.png' is now used as a side by side panel instead of background picture.
+The sign in function is functional and works where if your information is already stored in the database , you can go to the homepage to continue shopping.
+Else they can create their new profile and register
+
+## ![](ImagesD3_ss/login_page.png) 
+
 *Fig 2 : Screenshot of Login Page*
 
-### `		`2.2. stylelogin.css - 
-Stylelogin.css file is used to add styles and images to our login page. A variety of html/css functions are used including - resizing and setting images, making a UI component login button and texts, where password is automatically protected and shown as bullets, instead of characters, to maintain privacy. 
-
-### `		`2.3. Others -
-One image (veggie.png) is used from google, which is just used for decorative purposes and adds a grocery store background.
-
-### `		`2.4. Colors & Font usage -
-`			`Background photo : veggie.png
-
-Background color : ![](ImagesD2/LightRed.png)#F29B9B
-
-Font : sans-serif
-
-Text color : <h1> ![](ImagesD2/White.png)white
-
-`	     `: <h2> ![](ImagesD2/Neon.png) yellowgreen
-
-Box colors: username
-
-` 	 `![](ImagesD2/Blue.png)
-
-`    `: login 
-
-![](ImagesD2/Green.png)
-
 ## Homepage
-### 3.1. homepage.html
-Homepage.html is the main file where we have made the grocery website. Users will be able to click on the category section and browse between multiple categories. To add an item to the basket, you click on the product image and it will automatically get added to the cart. To add multiple of the same item, you click the image again. There are six selectable products shown in every row. Users will also be able to search for products and be able to use the User Service dropdown to select from the following options:
+Instead of a separate panel on the left side of the webpage we used a drop-down menu in the navigation bar to change the categories
 
+## ![](ImagesD3_ss/category.png) 
 
+## ![](ImagesD3_ss/homepage.png) 
 
-1. Checkout
-1. Logout
-1. Contact Us
-
-
-
-*Fig 3 : Screenshot of Home Page![](ImagesD2/Homepage.png)*
-### 3.2. styles.css
-In Styles.css, all the elements in the html file are properly sized and formatted for the users screen. This is where all the fonts and color palettes are set. The hoverable dropdown menu and the pictured category buttons are all stylized here.
-
-### 3.2.1 Colors & Fonts usage:
-`			`All the fonts on the homepage.html file use the “Sans-Serif” fonts				For the grocery website name and the user services, the following color is 			used:
-
-![](ImagesD2/Purple.png) rgb(77, 77, 255) 
-
-
-
-For the general layout of the webpage:
-
-![](ImagesD2/Red.png) rgb(248, 77, 105)
-
-For background of the webpage:
-
-`	`![](ImagesD2/Cream.png)rgb(255, 228, 196)
-
-
-### 3.2.2 Buttons Used:
-`			`All the pictures under “CATEGORY” are clickable buttons:
-
-![](ImagesD2/Electronics.png)
-
-
-
-`	`The products can be selected by clicking the following button:
-
-`	`![](ImagesD2/Pic.png)
-
-`	`User Services can be selected using the following dropdown:
-
-`	`![](ImagesD2/UserService.png)
-
-
-
-
-
-
-
-
+*Fig 3 : Screenshot of Home Page*
 
 ## Receipt
-### `		`4.1. receipt.html - 
-Receipt page is the final page of our website which as the name suggests mentions the item bought, it’s quantity, unit price, and does an automatic multiplication(to be implemented) to get a sub total. A fixed tax rate of 13% will be added and the user can find the total amount he/she has pays
-### ![](Aspose.Words.18246cfd-a60a-47b3-a4bc-5d7aa3faa872.005.png)
-### `		`4.2. stylereciept.css -
-The stylereciept.css uses basics of css to make a tabular receipt structure so that it is easy to read . 
+
+Bootstrap was implemented on the table to make it look more user friendly. The overall UI is now more spacious and since bootstrap is used, minimizing the window doesn't interfere with the quality of the website.
+
+## ![](ImagesD3_ss/receipt.png) 
+
+6. 
+**Front-end (mock) interactivity using JavaScript**
+
+ We have successfully configured the sign up and sign in page with a fully functional database system.
+ Upon clicking on the "add to cart" button the user will be able to add or delete quantities of the item.
+
+ ## ![](ImagesD3_ss/js.png) 
 
 ###		
 ###
-### `   `4.3. Colors & Font usage -
-
-Background color : <h1> ![](ImagesD2/Purple.png) rgb(77, 77, 255) 
-
-`		      `:  <h2> ![](ImagesD2/Red.png) rgb(248, 77, 105)
-
-Font : sans-serif
-
-Text color : <headings> ![](ImagesD2/White.png)white
-
-`	     `: <normal texts>![](ImagesD2/Black.png) black
-
-Table header background color: ![](ImagesD2/Black.png) black
-
-
-
-
-
 
