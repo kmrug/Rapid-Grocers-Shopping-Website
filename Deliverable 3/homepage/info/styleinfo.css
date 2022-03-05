@@ -1,0 +1,35 @@
+.pac-container {
+    background-color: #FFF;
+    z-index: 2001;
+    position: relative;
+    display: inline-block;
+}
+.modal{
+	color: rgb(248, 77, 105);
+    z-index: 2000;
+}
+.modal-backdrop{
+    z-index: 1000;
+}
+
+.modal-header {
+	color: #FFF;
+    background-color: rgb(248, 77, 105);
+}
+
+h3 {
+	text-align: center;
+	color: rgb(248, 77, 105);
+}
+
+.button.btn-close {
+	color: white !important;
+	opacity: 0.7 !important;
+}
+
+.btn-pink {
+	background-color: rgb(248, 77, 105) !important;
+	color: #FFF !important; 
+	font-size: larger !important;
+	font-weight: bolder !important;
+}
