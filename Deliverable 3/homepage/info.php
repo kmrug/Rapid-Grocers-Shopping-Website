@@ -7,20 +7,20 @@
 
 <!-- <body> -->
 
-<?php include "./info/partials/styling.php" ?>
-	<div class="text-center pt-5">
+
+<!-- <div class="text-center pt-5">
 		<button type="button" class="btn btn-primary btn-block" data-bs-toggle="modal" data-bs-target="#newuser">Click to Open Login Modal</button>
-	</div>
+	</div> -->
 
 
-	<div id="newuser" class="modal fade">
-		<div id="modalBox" class="modal-dialog modal-login modal-dialog-centered modal-md">
-			<div class="modal-content">
+<div id="newuser" class="modal fade">
+	<div id="modalBox" class="modal-dialog modal-login modal-dialog-centered modal-md">
+		<div class="modal-content">
 
 			<div id="modal-isi-body">
 
 				<div class="modal-header text-center border-0">
-					<h4 class="modal-title w-100 fs-1 text-center">Hi There!</h4>					
+					<h4 class="modal-title w-100 fs-1 text-center">Hi There!</h4>
 					<!-- <button type="button" class="btn-close" data-bs-dismiss="modal"></button> -->
 				</div>
 
@@ -70,9 +70,10 @@
 					</form>
 				</div>
 			</div>
-			</div>
 		</div>
 	</div>
+</div>
+<?php include "./info/partials/styling.php" ?>
 <!-- </body> -->
 
 <!-- </html> -->

@@ -2,19 +2,19 @@
     background-color: rgb(248, 77, 105);
 }
 .text-blue {
-	color: rgb(77, 77, 255);
+	color: rgb(77, 77, 255) !important;
 }
 
 .text-blue:hover {
-	color: #fff;
+	color: #fff !important	;
 }
 
 .bg-blue {
-	background-color: rgb(77, 77, 255);
+	background-color: rgb(77, 77, 255) !important;
 }
 
 .loginWidth {
-	width: 54.2rem;
+	width: 54.2rem !important;
 }
 
 .varelaFont {
@@ -35,16 +35,16 @@ a{
 }
   
 .btn-login {
-	font-size: 0.9rem;
-	letter-spacing: 0.05rem;
-	padding: 0.75rem 1rem;
+	font-size: 0.9rem !important;
+	letter-spacing: 0.05rem !important;
+	padding: 0.75rem 1rem !important;
 }
 
 .btn-blue {
-	background-color: rgb(77, 77, 255);
-	color: #fff;
+	background-color: rgb(77, 77, 255) !important;
+	color: #fff !important;
 }
 
 .btn-blue:hover{
-	color:yellow
+	color:yellow !important
 }	 
