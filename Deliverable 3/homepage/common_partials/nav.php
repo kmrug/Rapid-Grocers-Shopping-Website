@@ -3,7 +3,7 @@
 
         <div class="col-2">
             <div>
-                <a class="navbar-brand company" href="#">
+                <a class="navbar-brand company" href="homepage.php">
                     <img src="../images/logo2.jpg" alt="logo" width="40" height="30" class="mb-2">
                     Rapid Grocers
                 </a>
@@ -84,7 +84,7 @@
                 <button class="btn btn-md dropdown-toggle box col-9" data-bs-toggle="dropdown">Menu</button>
                 <ul class="dropdown-menu menu animate__animated animate__fadeIn">
                     <li>
-                        <a class="dropdown-item" href="#">
+                        <a class="dropdown-item" href="checkout.php">
                             <span class="categoryText">
                                 Checkout
                             </span>
@@ -95,7 +95,7 @@
                         </hr>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="#">
+                        <a class="dropdown-item" onclick="alert('You will now be logged out!')" href="newpage_login.php">
                             <span class="categoryText">
                                 Log Out
                             </span>
