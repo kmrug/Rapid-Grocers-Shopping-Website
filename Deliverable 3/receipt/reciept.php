@@ -8,20 +8,25 @@
 
 <body>
 	<div class="invoice">
-		<div class="header">
-			<h1>Rapid Grocers</h1>
-			<p>Receipt</p>
-		</div>
+		<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-pink py-1">
+    	<div class="container-fluid">
+
+        	<div class="col-12 ">
+            	<div class="row">
+                	<a class="navbar-brand company text-center" href="#">
+                    	<img src="../images/logo2.jpg" alt="logo" width="40" height="30">
+                    	Rapid Grocers
+                	</a>
+            	</div>
+        	</div>
+    	</div>
+		</nav>
 
 
 		<div class="info">
-			<h2>Contact Info:</h2>
+			<h2>Reciept:</h2>
 
 			<p>Name : Mr. Walter White</p>
-
-			<p>Phone : 1234567891</p>
-
-			<p>Card : 232************633</p>
 
 		</div>
 
