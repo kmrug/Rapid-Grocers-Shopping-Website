@@ -1,0 +1,39 @@
+body {
+  font-family: Verdana;
+}
+
+div.header {
+
+  padding: 10px;
+  text-align: center;
+  background: rgb(77, 77, 255);
+  color: white;
+  font-size: 20px;
+}
+
+div.invoice-details {
+  border: 1px solid #ff000f;
+  float: right;
+  width: 200pt;
+}
+
+div.info {
+  padding: 10px;
+  text-align: center;
+  background: rgb(248, 77, 105);
+  color: white;
+  font-size: 20px;
+}
+
+/* div.clear-fix {
+  clear: both;
+  float: none;
+} */
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: center;
+}
