@@ -290,7 +290,7 @@ The project was completed with collaboration of Parth Sharma (300057574) and Kis
 This project has been very informative for us where we understood and experienced the value of collaborating in a team and expressing creativity which would be helping us in the future.
 
 <h3>7. Screenshots and pictures taken</h3>
-The folder 'ImagesD4_ss' contains all the screenshots of the website we took and the folder 'products' contains all the pictures we used for our products and it also contains all the screenshots we took for each page which are shown all throughout this documentation.
+The folder 'ImagesD4_ss' contains all the screenshots of the website we took and the folder 'products' and 'images' contains all the pictures we used for our products and it also contains all the screenshots we took for each page which are shown all throughout this documentation.
 
 ###		
 ###
